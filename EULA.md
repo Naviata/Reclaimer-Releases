@@ -80,8 +80,8 @@ Reclaimer is an independent tool. It is **not made, approved or supported by Boh
 and DayZ Tools are trademarks of Bohemia Interactive a.s. Reclaimer reads and writes the file formats DayZ
 uses so that you can work with them.
 
-Reclaimer includes open-source components, each under its own licence. **Help > Third-party licences** in
-Reclaimer lists them. Those licences apply to those components and take priority over this agreement where
+Reclaimer includes open-source components, each under its own licence. **Help > Licence terms > Open-source
+licences** in Reclaimer lists them. Those licences apply to those components and take priority over this agreement where
 they differ.
 
 Patreon, Microsoft, GitHub and Discord are not parties to this agreement and are not responsible for

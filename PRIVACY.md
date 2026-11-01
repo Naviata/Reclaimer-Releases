@@ -1,13 +1,13 @@
-# Reclaimer DayZ Tools – Privacy Policy
+# Reclaimer Tools – Privacy Policy
 
-*Last updated: 28 October 2026*
+*Last updated: 1 November 2026*
 
 **In short:** Reclaimer has no ads, no analytics and no tracking. It sends personal data only to sign
 you in, to check your licence, to count your free hour, and to keep your account on one PC. Your
 terrains, models and other files stay on your computer.
 
-This policy covers the Reclaimer DayZ Tools desktop app ("Reclaimer") and the online service it signs
-in to. Reclaimer is made by **Reclaimer Tools** ("we"), who decides how this data is used. You
+This policy covers the Reclaimer Tools desktop app ("Reclaimer") and the online service it signs in
+to. Reclaimer is made by **Reclaimer Tools** ("we"), who decides how this data is used. You
 can reach us at the address in section 13.
 
 ---
@@ -28,16 +28,19 @@ Patreon also lists any memberships you have elsewhere. We keep only your members
 page.
 
 When your membership changes (you join, pay, change tier or leave), Patreon tells our server directly,
-so your access stays up to date.
+so your access stays up to date. The free hour (section 2) is signed in to the same way, with a free
+Patreon account.
 
-**With a developer account.** You sign in with an email address and a password. The password is
-stored by our hosting provider (see section 7) only in scrambled (hashed) form; we cannot read it. When
-you create a developer account, our hosting provider emails you a link to confirm your address.
+**With an email account.** These are for developers, testers and reviewers (such as the Microsoft
+Store's). You sign in with an email address and a password. The password is stored by our hosting
+provider (see section 7) only in scrambled (hashed) form; we cannot read it. When an email account is
+created, our hosting provider emails a link to confirm the address.
 
 **Checking your licence.** While you are signed in, Reclaimer asks our server for your licence. It
 does this:
 
 - when it starts
+- once an hour while Reclaimer is open, for a paid membership or role
 - when you open the account button, if the last check is more than 12 hours old
 - when you press **Check again**
 - during the free hour, once a minute while the Reclaimer window is in front
@@ -81,6 +84,9 @@ sent anywhere by Reclaimer:
   models and terrain
 - **your sign-in, if you tick "Remember me on this PC":** encrypted with Windows' own data protection,
   so only your Windows user on this PC can read it. **Sign out** deletes it.
+- **crash reports:** if Reclaimer stops unexpectedly, it writes a report to the `crashes` folder there:
+  what went wrong, Reclaimer's version, your Windows and .NET versions, the world that was open and the
+  last lines of Reclaimer's log. It is sent nowhere unless you choose to post it as a bug report.
 - **your terrains, projects, models and other files**, where you save them
 
 ## 5. What is not collected
@@ -89,10 +95,12 @@ Reclaimer does not collect:
 
 - the contents of your files, terrains or projects
 - how you use Reclaimer, what you click, or how long you spend in each tool
-- crash reports
+- crash reports (they stay on your computer, section 4)
 - your contacts
 - your payment details. Patreon takes payments; we only learn your membership status as described in
   section 1.
+
+There are no advertising trackers and no analytics in Reclaimer.
 
 ## 6. Why the data is used
 
@@ -113,9 +121,12 @@ right.
 
 - **Patreon,** for signing in with Patreon and for your membership details.
 - **Supabase,** our hosting provider. It runs our database and server on our behalf, in London (United
-  Kingdom), and also sends the confirmation email for developer accounts.
+  Kingdom), and also sends the confirmation email for email accounts.
 - **GitHub,** only as described in section 3. If you post a bug report there, it is public and covered
-  by GitHub's own privacy policy.
+  by GitHub's own privacy policy. A crash report you post includes file paths, which can contain your
+  Windows user name, so look it over before you post it.
+- **Microsoft,** only if you get Reclaimer from the Microsoft Store: the Store's own privacy statement
+  covers that. Reclaimer itself sends nothing to Microsoft.
 - **Discord,** only if you choose to join Reclaimer's Discord server.
 - **Authorities,** if the law requires it.
 
@@ -139,7 +150,7 @@ We do not sell your data or share it for advertising.
 
 - **Encrypted connections:** everything between Reclaimer, our server and Patreon goes over encrypted
   (HTTPS) connections.
-- **Passwords:** developer passwords are stored only in hashed form.
+- **Passwords:** the passwords of email accounts are stored only in hashed form.
 - **Signed licences:** licences are digitally signed, so they cannot be altered or forged.
 - **Database access:** Reclaimer can reach only your own account's data. Patreon details, PC records
   and the keys that sign licences are held on the server alone.
@@ -148,7 +159,8 @@ We do not sell your data or share it for advertising.
 ## 10. Your choices and your rights
 
 - **Your data:** you can ask to see, correct, delete or receive a copy of your data. You can also ask
-  us to stop using it, or object to how we use it. Email us (section 13); we answer within one month.
+  us to stop using it, or object to how we use it. Email us (section 13); we aim to answer within two
+  weeks, and always within one month.
 - **Patreon access:** you can remove Reclaimer's access to your Patreon account at any time, in
   Patreon's settings under apps.
 - **In Reclaimer:**
@@ -167,6 +179,9 @@ contact us and we will delete it.
 
 If we change what Reclaimer collects or how it is used, we update this page and its date before the
 version of Reclaimer that makes the change is released.
+
+Using Reclaimer is also covered by its licence terms (EULA.md), shown in Reclaimer under **Help > Licence
+terms**.
 
 ## 13. Contact
 
